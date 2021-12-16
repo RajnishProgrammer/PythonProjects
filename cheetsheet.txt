@@ -1,0 +1,15 @@
+touch .gitignore
+git config --global user.name RajnishProgrammer
+git config --global user.email rajnishsinghthakur107@gmail.com
+git init
+git add .
+git commit -m "initial commit"
+git status # just to see
+$ ssh-keygen -t ed25519 -C "your_email@example.com"
+
+#goto your git terminal and type [cat /c/Users/you/.ssh/id_algorithm] #specified path where your generated ssh key is saved.
+
+#setup remote origin 
+git remote add origin git@github.com:RajnishProgrammer/PythonProjects.git
+#finally push the repo
+git push orgin master
